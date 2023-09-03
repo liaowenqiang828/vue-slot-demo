@@ -2,6 +2,7 @@
 import ChildDefaultSlot from './ChildDefaultSlot.vue';
 import ChildNamedSlotVue from './ChildNamedSlot.vue';
 import ChildScopedSlotVue from './ChildScopedSlot.vue';
+import CountDown from './CountDown.vue';
 
 
 </script>
@@ -27,6 +28,8 @@ import ChildScopedSlotVue from './ChildScopedSlot.vue';
         {{slotValue}}
         </template>
     </ChildScopedSlotVue>
+
+    <CountDown />
 </template>
 
 <style scoped>
