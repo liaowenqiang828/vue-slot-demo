@@ -6,8 +6,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-
-
 const countDown = ref(60);
 const value = '';
 const buttonText = ref('发送验证码')

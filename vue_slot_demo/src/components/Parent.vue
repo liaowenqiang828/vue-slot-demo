@@ -3,6 +3,7 @@ import ChildDefaultSlot from './ChildDefaultSlot.vue';
 import ChildNamedSlotVue from './ChildNamedSlot.vue';
 import ChildScopedSlotVue from './ChildScopedSlot.vue';
 import CountDown from './CountDown.vue';
+import CountDownWithHook from './CountDownWithHook.vue';
 
 
 </script>
@@ -30,6 +31,7 @@ import CountDown from './CountDown.vue';
     </ChildScopedSlotVue>
 
     <CountDown />
+    <CountDownWithHook />
 </template>
 
 <style scoped>
